@@ -1,0 +1,41 @@
+/*
+	vars
+*/
+
+$fonts: '../fonts/';
+$images: '../images/';
+
+// fonts
+$JaFonts: 'Noto Sans Japanese', serif;
+$UbFonts: 'Ubuntu', sans-serif;
+
+$defFonts: Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans",
+YuGothic, "游ゴシック", Meiryo, "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif;
+
+$breakpoints: (
+  phone-xs: 375px,
+  phone: 768px,
+  tablet: 992px,
+  desktop: 1200px,
+  desktop_lg: 1400px,
+);
+
+// wrap
+$container-p: 20px;
+$container-width: 1280px;
+
+// colors
+$white: #fff;
+$black: #000;
+
+// transitions
+$transition_dur: .5s;
+$transition_tfn: cubic-bezier(.165,.84,.44,1);
+
+/* offset */
+
+$offset-1: 80px;
+$offset-1-md: 50px;
+
+$offset-2: 50px;
+$offset-2-md: 30px

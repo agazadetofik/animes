@@ -1,0 +1,46 @@
+/* app */
+
+.app {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-height: 1px;
+}
+
+.mt80 {
+	margin-top: $offset-1;
+	@include media('<md') {
+		margin-top: $offset-1-md;
+	}
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.pt80 {
+	padding-top: 80px;
+}
+
+.pb80 {
+	padding-bottom: 80px;
+}
+
+.list {
+	span {
+
+	}
+
+	h3 {
+		margin-top: $offset-1;
+		@include media('<md') {
+			margin-top: $offset-1-md;
+		}
+	}
+
+	p {
+
+	}
+}
+
+

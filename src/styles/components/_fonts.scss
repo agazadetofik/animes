@@ -1,0 +1,7 @@
+/* fonts */
+
+@font-face {
+  font-family: NovaMono;
+  src: url('#{$fonts}/SomePath/SomeName.woff2') format('woff2'),
+  url('#{$fonts}/SomePath/SomeName.woff') format('woff');
+}

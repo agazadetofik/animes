@@ -1,0 +1,30 @@
+/* btn */
+
+.btn {
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	margin: 0 auto;
+	padding: 15px 0;
+	border: 3px solid $black;
+	border-radius: 0;
+	background-color: $white;
+
+	position: relative;
+	text-align: center;
+
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: $black;
+
+	// animate
+	transition-property: background, color;
+	transition-duration: $transition_dur;
+	transition-timing-function: $transition_tfn;
+
+	// defaults
+	cursor: pointer;
+	outline: none;
+}
